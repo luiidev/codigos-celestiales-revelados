@@ -1,0 +1,77 @@
+@media screen and (max-width: 768px ) {
+  body {
+    background-size: cover;
+  }
+
+  .carousel .carousel-caption {
+    display: block;
+  }
+
+  .carousel .carousel-caption > h1 {
+    font-size: 29px;
+    margin: 0;
+  }
+
+  .carousel-inner .item img {
+    height: 113px !important;
+    width: auto !important;
+  }
+
+  .libros {
+    padding: 15px;
+  }
+
+  .libros img {
+    height: 111px;
+    width: auto;
+    display: inline-block;
+  }
+
+  .cod-content p {
+    font-size: 17px;
+  }
+
+  .presetation,
+  .contact,
+  .messages,
+  .galery,
+  .videos,
+  .book-title,
+  .book-download,
+  .book-view {
+    padding: 0px;
+  }
+
+  .presetation h1,
+  .contact h1,
+  .messages h1,
+  .galery h1,
+  .videos h1,
+  .book-title h1 {
+    font-size: 30px;
+  }
+
+  .collapse.navbar-collapse {
+    float: none;
+  }
+
+  .nav.navbar-nav {
+    margin: 0;
+  }
+
+  .libros a:first-child img  {
+    margin-top: 5px;
+  }
+
+  .book-download a {
+    width: 100%;
+    display: block;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+  }
+  .book-view iframe {
+    height: 500px;
+  }
+}

@@ -1,0 +1,457 @@
+body {
+  /*background: #EEE;*/
+  background: url(http://img09.deviantart.net/dc28/i/2012/047/a/7/excalibur_by_hellsescapeartist-d4pzg97.jpg) top right no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.container.header {
+  background: transparent;
+}
+
+.container {
+  background: #F3BE38;
+}
+
+.navbar {
+  margin: 0;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar.navbar-default {
+  background-color: #000;
+}
+
+.navbar-collapse {
+  padding: 0;
+}
+
+.navbar-nav li{
+  text-align: center;
+}
+
+.navbar-toggle.collapsed {
+  background-color: #ddd;
+}
+
+.collapse.navbar-collapse {
+  float: right;
+}
+
+.nav-a-black {
+  background-color: #000000;
+  color: #FFFFFF !important;
+}
+
+.nav-a-purple {
+  background-color: #921B70;
+  color: #FFFFFF !important;
+}
+
+.nav-a-blue {
+  background-color: #0E2E73;
+  color: #FFFFFF !important;
+}
+
+.nav-a-skyblue {
+  background-color: #008DBC;
+  color: #FFFFFF !important;
+}
+
+.nav-a-green {
+  background-color: #068724;
+  color: #FFFFFF !important;
+}
+.nav-a-orange {
+  background-color: #DE4906;
+  color: #FFFFFF !important;
+}
+.nav-a-red {
+  background-color: #C8201F;
+  color: #FFFFFF !important;
+}
+.nav-a-yellow {
+  background-color: #D5C508;
+  color: #FFFFFF !important;
+}
+
+.nav-a-black:hover,
+.nav-a-black:focus {
+  opacity: 0.9;
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+.nav-a-purple:hover,
+.nav-a-purple:focus {
+  opacity: 0.9;
+  background-color: #921B70 !important;
+  color: #FFFFFF !important;
+}
+
+.nav-a-blue:hover,
+.nav-a-blue:focus {
+  opacity: 0.9;
+  background-color: #0E2E73 !important;
+  color: #FFFFFF !important;
+}
+
+.nav-a-skyblue:hover,
+.nav-a-skyblue:focus {
+  opacity: 0.9;
+  background-color: #008DBC !important;
+  color: #FFFFFF !important;
+}
+
+.nav-a-green:hover,
+.nav-a-green:focus {
+  opacity: 0.9;
+  background-color: #068724 !important;
+  color: #FFFFFF !important;
+}
+
+.nav-a-orange:hover,
+.nav-a-orange:focus {
+  opacity: 0.9;
+  background-color: #DE4906 !important;
+  color: #FFFFFF !important;
+}
+
+.nav-a-red:hover,
+.nav-a-red:focus {
+  opacity: 0.9;
+  background-color: #C8201F !important;
+  color: #FFFFFF !important;
+}
+
+.nav-a-yellow:hover,
+.nav-a-yellow:focus {
+  opacity: 0.9;
+  background-color: #D5C508 !important;
+  color: #FFFFFF !important;
+}
+
+.header h1{
+  font-size: 82px;
+  text-align: center;
+}
+
+.header img{
+  width: 100%;
+}
+
+.nopadding {
+   padding: 0;
+   margin: 0;
+}
+
+.cod-content img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cod-content p {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+footer .cod-footer{
+  padding-top: 70px; 
+}
+
+.border {
+  border: 1px solid;
+}
+
+.border-h {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.border-v {
+  border-top: 1px solid;
+  border-botton: 1px solid;
+}
+
+.border-l {
+  border-left: 1px solid;
+}
+
+.border-r {
+  border-right: 1px solid;
+}
+
+.libros {
+  padding: 5px;
+}
+
+.libros img {
+  margin: 0;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.libros a:first-child img {
+  margin-top: 0px;
+}
+
+.m0 {
+  margin: 0px !important;
+}
+
+/*
+ * Carousel
+ */
+
+.carousel .carousel-control {
+  -webkit-transition: all;
+  -o-transition: all;
+  transition: all;
+  -webkit-transition-duration: 250ms;
+  transition-duration: 250ms;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.carousel .carousel-control .md {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  line-height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .carousel .carousel-control .md {
+    font-size: 60px;
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .carousel .carousel-control .md {
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    margin-left: -12px;
+  }
+}
+
+.carousel:hover .carousel-control {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.carousel .carousel-caption {
+  background: rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.carousel .carousel-caption > h1 {
+  color: #fff;
+  font-weight: 300;
+  padding: 0 50px;
+}
+
+.carousel .carousel-caption > p {
+  margin: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .carousel .carousel-caption {
+    display: none;
+  }
+}
+
+.carousel .carousel-indicators {
+  display: none;
+}
+
+/*.carousel .carousel-indicators {
+  bottom: 10px;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0 0 6px;
+  background: rgba(0, 0, 0, 0.6);
+}*/
+
+/*.carousel .carousel-indicators li {
+  border-radius: 0;
+  width: 15px;
+  border: 0;
+  background: #fff;
+  height: 3px;
+  margin: 0;
+  -webkit-transition: all;
+  -o-transition: all;
+  transition: all;
+  -webkit-transition-duration: 250ms;
+  transition-duration: 250ms;
+}
+
+.carousel .carousel-indicators li.active {
+  width: 25px;
+  height: 3px;
+  background: #ff9800;
+}*/
+
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden; -webkit-transform: translate3d(0,0,0);}
+#cboxWrapper {max-width:none;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative;}
+#cboxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+.cboxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.cboxIframe{width:100%; height:100%; display:block; border:0; padding:0; margin:0;}
+#colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay{background:url(/img/overlay.png) repeat 0 0; opacity: 0.9; filter: alpha(opacity = 90);}
+#colorbox{outline:0;}
+    #cboxTopLeft{width:21px; height:21px; background:url(/img/controls.png) no-repeat -101px 0;}
+    #cboxTopRight{width:21px; height:21px; background:url(/img/controls.png) no-repeat -130px 0;}
+    #cboxBottomLeft{width:21px; height:21px; background:url(/img/controls.png) no-repeat -101px -29px;}
+    #cboxBottomRight{width:21px; height:21px; background:url(/img/controls.png) no-repeat -130px -29px;}
+    #cboxMiddleLeft{width:21px; background:url(/img/controls.png) left top repeat-y;}
+    #cboxMiddleRight{width:21px; background:url(/img/controls.png) right top repeat-y;}
+    #cboxTopCenter{height:21px; background:url(/img/border.png) 0 0 repeat-x;}
+    #cboxBottomCenter{height:21px; background:url(/img/border.png) 0 -29px repeat-x;}
+    #cboxContent{background:#fff; overflow:hidden;}
+        .cboxIframe{background:#fff;}
+        #cboxError{padding:50px; border:1px solid #ccc;}
+        #cboxLoadedContent{margin-bottom:28px;}
+        #cboxTitle{position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;}
+        #cboxCurrent{position:absolute; bottom:4px; left:58px; color:#949494;}
+        #cboxLoadingOverlay{background:url(/img/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(/img/loading.gif) no-repeat center center;}
+
+        /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+        #cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {border:0; padding:0; margin:0; overflow:visible; width:auto; background:none; }
+        
+        /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
+
+        #cboxSlideshow{position:absolute; bottom:4px; right:30px; color:#0092ef;}
+        #cboxPrevious{position:absolute; bottom:0; left:0; background:url(/img/controls.png) no-repeat -75px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxPrevious:hover{background-position:-75px -25px;}
+        #cboxNext{position:absolute; bottom:0; left:27px; background:url(/img/controls.png) no-repeat -50px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxNext:hover{background-position:-50px -25px;}
+        #cboxClose{position:absolute; bottom:0; right:0; background:url(/img/controls.png) no-repeat -25px 0; width:25px; height:25px; text-indent:-9999px;}
+        #cboxClose:hover{background-position:-25px -25px;}
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+}
+
+.rollo {
+  width: 240px !important;
+  height: 365.63px !important;
+  margin: 0 auto;
+}
+
+.book-title,
+.book-download,
+.book-view {
+  padding: 0 30px;
+  margin-top: 30px;
+}
+
+.book-title {
+  text-align: center;
+  color: #0000FF;
+}
+
+.book-view {
+  margin-top: 30px;
+}
+
+.presetation  {
+  padding: 25px 50px;
+  text-align: center;
+}
+
+.presetation p {
+  margin-top: 25px;
+  text-align: justify;
+}
+
+.messages  {
+  padding: 25px 50px;
+}
+
+.messages p {
+  margin-bottom: 30px;
+}
+
+.contact  {
+  padding: 25px 50px;
+}
+
+.contact p {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.videos {
+    padding: 25px 50px;
+}
+
+.galery a{
+  display: inline-block;
+}
+
+.galery a img{
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+  height: 80px;
+}
+
+.galery label {
+  display: block;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 55px;
+  padding-bottom: 20px;
+  text-align: center;
+}
